@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Destination</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--animate on scroll library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link-->
+    <script src="script.js" defer></script>
+
+    <!--icon library-->
+    <script src="https://kit.fontawesome.com/503bc3da4f.js" crossorigin="anonymous"></script>
+
+    <!--favicon(an image with title)-->
+    <link rel="icon" type="image/x-icon" href="image.svg">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a data-aos="zoom-in-right" data-aos-delay="150" href="http://127.0.0.1:5500/index.html"
+            class="logo"> <i class="fa-solid fa-mountain-sun" style="margin-right: 10px;"></i>Our <span>Himachal</span>
+        </a>
+
+        <nav class="navbar">
+            <a data-aos="zoom-in-right" data-aos-delay="300"
+                href="http://127.0.0.1:5500/index.html">home</a>
+            <a data-aos="zoom-in-right" data-aos-delay="450" href="#footer">about</a>
+            <a data-aos="zoom-in-right" data-aos-delay="600" href="destination.html">destination</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="gallery.html">gallery</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#blogs">blogs</a>
+        </nav>
+
+        <div class="searchbox" data-aos="zoom-in-left" data-aos-delay="300">
+            <input type="text" maxlength="25" placeholder="search here..">
+            <i class="fa-solid fa-magnifying-glass icon-16x"></i>
+            <div class="map-locate" id="map-locate"></div>
+        </div>
+
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="login.html" class="btn">Sign In</a>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <section class="banner2" id="banner2">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-delay="150">Himachal</h2>
+            <span data-aos="fade-left" data-aos-delay="300">Pradesh</span>
+        </div>
+    </section>
+    <section class="h-h1">
+        <h1 style="font-family: 'Pacifico', cursive;">Tourist<span
+                style="font-family: 'Pacifico', cursive;">Places</span></h1>
+    </section>
+
+
+    <section class="description-box" id="description-box">
+        <div class="content" >
+            <img data-aos="fade-right" data-aos-delay="150" src="shimla.jpg" alt="shimla">
+            <a href="shimla.html"><H3 data-aos="fade-left" data-aos-delay="300">Sh<span>i</span>mla</H3></a>
+            
+            <p data-aos="fade-down" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit repellat nulla similique soluta sapiente? Error commodi tempora mollitia nihil numquam
+                nobis asperiores facere!
+            </p>
+        </div>
+    </section>
+
+    <section class="description2-box">
+        <div class="content" >
+            <img data-aos="fade-right" data-aos-delay="150" src="kullu.jpg" alt="kullu">
+            <H3 data-aos="fade-left" data-aos-delay="300">Ku<span>l</span>lu</H3>
+            <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit repellat nulla similique soluta sapiente? Error commodi tempora mollitia nihil numquam
+                nobis asperiores facere!
+            </p>
+        </div>
+    </section>
+
+    <section class="description3-box">
+        <div class="content">
+            <img src="kasol.jpg" alt="ksaol">
+            <H3>Ka<span>s</span>ol</H3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit repellat nulla similique soluta sapiente? Error commodi tempora mollitia nihil numquam
+                nobis asperiores facere!
+            </p>
+        </div>
+    </section>
+
+    <section class="description4-box">
+        <div class="content">
+            <img src="kasauli.jpg" alt="kasauli">
+          <a href="kasauli.html"><H3>Ka<span>sa</span>uli</H3></a>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit repellat nulla similique soluta sapiente? Error commodi tempora mollitia nihil numquam
+                nobis asperiores facere!
+            </p>
+        </div>
+    </section>
+
+    <section class="description5-box">
+        <div class="content">
+           <a href="http://127.0.0.1:5501/travel%20website/himachal-1.jpg"><img src="himachal-1.jpg" alt=""></a> 
+        </div>
+    </section>
+
+    <section class="description6-box">
+        <div class="content">
+           <a href="http://127.0.0.1:5501/travel%20website/himachal-2.jpg"><img src="himachal-2.jpg" alt=""></a> 
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+
+<script src="map-locate.js"></script>
+
+</body>
+
+</html>

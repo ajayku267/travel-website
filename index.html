@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicum</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--animate on scroll library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link-->
+    <script src="script.js" defer></script>
+
+    <!--icon library-->
+    <script src="https://kit.fontawesome.com/503bc3da4f.js" crossorigin="anonymous"></script>
+
+    <!--favicon(an image with title)-->
+    <link rel="icon" type="image/x-icon" href="image.svg">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a data-aos="zoom-in-right" data-aos-delay="150" href="http://127.0.0.1:5500/index.html"
+            class="logo"> <i class="fa-solid fa-mountain-sun" style="margin-right: 10px;"></i>Our <span>Himachal</span>
+        </a>
+
+        <nav class="navbar">
+            <a data-aos="zoom-in-right" data-aos-delay="300"
+                href="http://127.0.0.1:5500/index.html">home</a>
+            <a data-aos="zoom-in-right" data-aos-delay="450" href="#footer">about</a>
+            <a data-aos="zoom-in-right" data-aos-delay="600" href="destinationfinal.html">destination</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="gallery.html">gallery</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#blogs">blogs</a>
+        </nav>
+
+        <div class="searchbox" data-aos="zoom-in-left" data-aos-delay="300">
+            <input id="locate" type="text" maxlength="25" placeholder="search here..">
+            <i id="mapbtn" class="fa-solid fa-magnifying-glass icon-16x"></i>
+            <div class="map-locate" id="map-locate"></div>
+
+        </div>
+
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="login.html" class="btn">Sign In</a>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">Let's Explore</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">Our Himachal</h3>
+            <p data-aos="fade-up" data-aos-delay="450">The place is punctuated with stone as well as wood temples. The
+                shadowy valleys, rugged crags, glaciers and gigantic pines and roaring rivers</p>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- booking form section starts  -->
+
+    <section class="book-form" id="book-form">
+
+        <form action="">
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>where to?</span>
+                <input type="text" placeholder="place name" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+                <span>when?</span>
+                <input type="date" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+                <span>how many?</span>
+                <input type="number" placeholder="number of travelers" value="">
+            </div>
+            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="find now" class="btn">
+        </form>
+
+    </section>
+
+    <!-- booking form section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="1.mp4"></span>
+                <span class="control-btn" data-src="2.mp4"></span>
+                <span class="control-btn" data-src="3.mp4"></span>
+            </div>
+        </div>
+
+        <div class="content" data-aos="fade-left" data-aos-delay="600">
+            <span>Come to Himachal </span>
+            <h3>The hills and beauty is waiting</h3>
+            <p>The place is punctuated with stone as well as wood temples. The shadowy valleys, rugged crags, glaciers
+                and gigantic pines and roaring rivers</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- destination section starts  -->
+
+    <section class="destination" id="destination">
+
+        <div class="heading">
+            <span>our destinations</span>
+            <h1>Plan your trip</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="shimla.cms" alt="">
+                </div>
+                <div class="content">
+                    <h3>shimla</h3>
+                    <p>The town is famous for pleasant walking experiences on hillsides surrounded by pine and oak
+                        forests.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="manali.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>manali</h3>
+                    <p>Manali is a beautiful township nestled in the picturesque Beas River valley.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="dharamsala.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>dharamshala</h3>
+                    <p>The home of Dalai Lama and all the Tibetans in exile.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="kasol.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>kasol</h3>
+                    <p>This offbeat place is perched in Parvati Valley</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="750">
+                <div class="image">
+                    <img src="kasauli.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>kasauli</h3>
+                    <p>known as Monkey Point, is now with the IAF and the site of new family apartment blocks for IAF
+                        personnel.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="900">
+                <div class="image">
+                    <img src="kullu.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>kullu</h3>
+                    <p>famous for its temples, mountains and pine and deodar forests</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1150">
+                <div class="image">
+                    <img src="solan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>solan</h3>
+                    <p>known as the 'mushroom city of India' because it is the largest producer of mushroom in the
+                        country and it houses the Directorate of Mushroom Research</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="nahan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>nahan</h3>
+                    <p>Nahan is quite well for the panoramic beauty and this little hill town not only features visual
+                        beauty</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- destination section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <span>our gallery</span>
+            <h1>we record memories</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="https://source.unsplash.com/random/?himachal&1" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="https://source.unsplash.com/random/?himachal&2" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="https://source.unsplash.com/random/?himachal&3" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="https://source.unsplash.com/random/?himachal&4" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="https://source.unsplash.com/random/?himachal&5" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="https://source.unsplash.com/random/?himachal&6" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="https://source.unsplash.com/random/?himachal&7" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="https://source.unsplash.com/random/?himachal&8" alt="">
+                <span></span>
+
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="https://source.unsplash.com/random/?himachal&9" alt="">
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <span>blogs & posts</span>
+            <h1>Untold stories</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="aditya.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">McLeod Ganj</a>
+                    <p>Nestled amidst majestic hills and lush greenery!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 9th nov, 2022</a>
+                        <a href="#"><i class="fas fa-user"></i> by aditya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="mudit.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">McLeod Ganj</a>
+                    <p>Nestled amidst majestic hills and lush greenery!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 7th nov, 2022</a>
+                        <a href="#"><i class="fas fa-user"></i> by mudit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="kanishk.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Nangal</a>
+                    <p>Surrounded by canals, beautiful hills and Sutlej river!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 7th nov, 2022</a>
+                        <a href="#"><i class="fas fa-user"></i> by mudit </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- banner section starts  -->
+
+    <div class="banner">
+
+        <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>start your adventure</span>
+            <h3>Let's Explore This amazing World</h3>
+            <p>The place is punctuated with stone as well as wood temples. The shadowy valleys, rugged crags, glaciers
+                and gigantic pines and roaring rivers</p>
+        </div>
+
+    </div>
+
+    <!-- banner section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="http://127.0.0.1:5500/index.html" class="logo"> <i
+                        class="fa-solid fa-mountain-sun"></i>Our Himachal </a>
+                <p>The place is punctuated with stone as well as wood temples. The shadowy valleys, rugged crags,
+                    glaciers and gigantic pines and roaring rivers</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>quick links</h3>
+                <a href="http://127.0.0.1:5500/index.html" class="links"> <i
+                        class="fas fa-arrow-right"></i> home </a>
+                <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="destination.html" class="links"> <i class="fas fa-arrow-right"></i> destination </a>
+                <a href="gallery.html" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map"></i> Charkhi Dadri, Haryana, India </p>
+                <p> <i class="fas fa-phone"></i> +91-8168246113 </p>
+                <p> <i class="fas fa-envelope"></i> Ajay217k@gmail.com </p>
+                <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" class="email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="credit">Thank <span>You</span> | I hope you <span>like it</span>.</div>
+
+    <!-- footer section ends -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+
+
+    <script src="map-locate.js"></script>
+
+</body>
+
+</html>
